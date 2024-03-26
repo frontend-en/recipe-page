@@ -1,8 +1,7 @@
 ### Screenshot
 
-![](./screenshot.jpg)
-
-
+![](./assets/images/Screenshot_1.jpg)
+![](./assets/images/Screenshot_2.jpg)
 
 
 ## My process
