@@ -170,7 +170,7 @@ main {
   padding: 0 clamp(2rem, 1.8239rem + 0.7512vi, 2.5rem);
   display: flex;
   flex-direction: column;
-  gap: clamp(2rem, 1.8239rem + 0.7512vi, 2.5rem);
+  gap: 2rem;
 }
 .card__recipe-description {
   padding-top: 2.5rem;
