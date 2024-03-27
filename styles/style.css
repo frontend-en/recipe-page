@@ -170,7 +170,7 @@ main {
   padding: 0 clamp(2rem, 1.8239rem + 0.7512vi, 2.5rem);
   display: flex;
   flex-direction: column;
-  gap: 1.635rem;
+  gap: clamp(2rem, 1.8239rem + 0.7512vi, 2.5rem);
 }
 .card__recipe-description {
   padding-top: 2.5rem;
@@ -275,12 +275,12 @@ main {
 }
 
 hr {
-  background-color: hsl(30, 17%, 87%);
+  border: 1px solid hsl(30, 17%, 87%);
   width: 100%;
 }
 
 .grid-item {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid hsl(30, 17%, 87%);
 }
 
 .no-underline {
