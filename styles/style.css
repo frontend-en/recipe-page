@@ -68,6 +68,7 @@ blockquote,
 dl,
 dd {
   margin: 0;
+  letter-spacing: -0.01px;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -83,6 +84,7 @@ a {
 
 p {
   margin: 0;
+  letter-spacing: -0.01px;
 }
 
 /* Set core root defaults */
@@ -187,11 +189,11 @@ main {
   color: hsl(30, 10%, 34%);
 }
 .card__preparation-time {
-  font-family: "Outfit SemiBold";
   background-color: hsl(330, 100%, 98%);
   padding: clamp(1.5rem, 1.412rem + 0.3756vi, 1.75rem);
 }
 .card__title-3 {
+  font-family: "Outfit SemiBold";
   font-size: 1.25rem;
   color: hsl(332, 51%, 32%);
   margin-bottom: 1rem;
@@ -276,13 +278,13 @@ main {
 }
 
 hr {
-  border: 1px solid hsl(30, 17%, 87%);
+  border: 1px solid hsla(30, 17%, 87%, 0.5);
   width: 100%;
   margin: 0;
 }
 
 .grid-item {
-  border-bottom: 1px solid hsl(30, 17%, 87%);
+  border-bottom: 1px solid hsla(30, 17%, 87%, 0.5);
 }
 
 .no-underline {
