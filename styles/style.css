@@ -278,6 +278,7 @@ main {
 hr {
   border: 1px solid hsl(30, 17%, 87%);
   width: 100%;
+  margin: 0;
 }
 
 .grid-item {
