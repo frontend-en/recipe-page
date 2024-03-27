@@ -164,7 +164,7 @@ main {
   text-align: center;
   display: block;
   margin: 0 auto;
-  border-radius: clamp(0rem, -0.4401rem + 1.8779vi, 1.25rem);
+  border-radius: clamp(0rem, -0.2641rem + 1.1268vi, 0.75rem);
 }
 .card__content {
   padding: 0 clamp(2rem, 1.8239rem + 0.7512vi, 2.5rem);
@@ -187,6 +187,7 @@ main {
   color: hsl(30, 10%, 34%);
 }
 .card__preparation-time {
+  font-family: "Outfit SemiBold";
   background-color: hsl(330, 100%, 98%);
   padding: clamp(1.5rem, 1.412rem + 0.3756vi, 1.75rem);
 }
